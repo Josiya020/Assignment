@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        h1, h2 {text-align: center;}
+        body{background-color:#050505;}
+        #capital{height:120px;background-color:#FFFFFF;}
+        #capital:hover{text-transform: uppercase;}
+        #skew{
+            height:120px;
+            width:500px;
+            background-color:#FFFFFF;
+            
+            transform: skew(30deg,20deg);
+            display:inline-block;
+            
+        }
+        #skew:hover{
+            transform: skew(0deg,0deg);
+        }
+        .pa{
+            transform: skew(-30deg,-20deg);
+        }
+        #rot{
+            height:100px;
+            width:500px;
+            margin-left: 30px;
+            background-color:#FFFFFF;
+            display:inline-block;
+            text-align: center;
+            
+        }
+        #rot:hover{
+            transform: rotateX(180deg);
+            
+        }
+        #trans{
+            height:100px;
+            width:500px;
+            margin-left: 30px;
+            background-color:#FFFFFF;
+            display:inline-block;
+            text-align: center;
+        }
+        #trans:hover{
+            transform: scale(0.5) translate(100px,50%);
+        }
+        </style>
+    </head>
+    
+    <body>
+        
+        <div id="capital">
+            <h1>Capitalize text</h1>
+            
+        </div>
+        <br><br><br><br><br><br><br>
+
+        <div id="skew">
+            <h2>Transform : skew</h2> 
+            
+        </div>
+        <br><br><br><br><br><br><br>
+        <div id="rot">
+            <h2>Transform : rotate</h2>
+            
+        </div>
+        <br><br><br><br><br><br><br>
+        <div id="trans">
+            <h3>Transform : scale and translate</h3>
+            
+        </div>
+    </body>
+</html>
